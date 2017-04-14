@@ -104,6 +104,7 @@ describe Temperature do
       it "is constructed in degrees celsius" do
         expect(Celsius.new(50).in_celsius).to eq(50)
         expect(Celsius.new(50).in_fahrenheit).to eq(122)
+
       end
 
       it "is a Temperature subclass" do
